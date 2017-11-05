@@ -3,3 +3,7 @@ if (h > 40):
     pay = (40 * r) + (h - 40) * 1.5 * r
 else:
     pay = (h * r)
+
+#min always send the space as default min value no other value precedes 'white space' followed by upper case then lower case
+big = min("This is first")
+print (big)
